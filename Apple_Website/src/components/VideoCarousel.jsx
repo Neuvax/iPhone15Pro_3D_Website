@@ -120,7 +120,7 @@ const VideoCarousel = () => {
         setVideo((pre) => ({
           ...pre,
           isEnd: true,
-          videoIndex: (i = 1),
+          videoIndex: i + 1,
         }));
         break;
       case "video-last":
