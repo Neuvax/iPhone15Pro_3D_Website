@@ -156,11 +156,11 @@ const VideoCarousel = () => {
                     pointer-events-none
                   `}
                   ref={(el) => (videoRef.current[i] = el)}
-                  onEnded={() => {
+                  onEnded={() =>
                     i !== 3
                       ? handleProcess("video-end", i)
-                      : handleProcess("video-last");
-                  }}
+                      : handleProcess("video-last")
+                  }
                   onPlay={() => {
                     setVideo((prevVideo) => ({
                       ...prevVideo,
