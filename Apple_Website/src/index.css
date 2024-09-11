@@ -29,6 +29,21 @@ canvas {
   max-width: 1120px;
 }
 
+.loader {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-left-color: #f6f3ed;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 @layer utilities {
   .flex-center {
     @apply flex items-center justify-center;
