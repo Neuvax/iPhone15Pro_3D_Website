@@ -44,3 +44,5 @@ tailwind.css
 *.log
 *.tmp
 *.temp
+# Sentry Config File
+.env.sentry-build-plugin
