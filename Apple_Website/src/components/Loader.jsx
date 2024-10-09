@@ -6,7 +6,7 @@ const Loader = () => {
     <Html center>
       <div className="flex flex-col items-center justify-center space-y-2">
         <div className="loader"></div>
-        <p className="text-sm text-gray-500">Loading</p>
+        <p className="text-sm text-gray-500">Loading...</p>
       </div>
     </Html>
   );
